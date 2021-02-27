@@ -1,34 +1,100 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="public/logo-full.svg"/>
+</p>
 
-## Getting Started
+# [Move.it](https://nextlevelweek-moveit.vercel.app)
+![stacks](https://img.shields.io/badge/ReactJS-v17.0.1-brightgreen) ![stacks](https://img.shields.io/badge/NextJS-v10.0.7-brightgreen) ![stacks](https://img.shields.io/badge/Stack-Typescript-blue) ![GitHub](https://img.shields.io/github/license/legeannd/nextlevelweek-moveit)
 
-First, run the development server:
+
+<p align="center">
+  <img src="uploads/capa.png"/>
+</p>
+
+<p align="center">
+  <img width="600" src="uploads/web.gif"/>
+</p>
+
+
+* [Content (en-US)](#section-en_us)
+* [Conteúdo (pt-BR)](#secao-pt_br)
+
+---
+
+## About the project <a id="section-en_us"></a>
+
+[Move.it](https://nextlevelweek-moveit.vercel.app) is an application that implements the pomodoro technique, which consists of maintaining a focus period and a rest period during the activities, along with a scoring system that encourages the user to perform body and vision exercises, to relax them and avoid health problems.
+The application was built in Next.js, a framework based on React that enables advanced features, such as SSR (Server Side Rendering). User score data is saved locally in the browser using cookies, which make it possible for progress not to be lost when reloading the page.
+
+## Content
+  * [Techs](#techs)
+  * [How to run the project](#installation)
+    * [Installation - Front-end](#installation-front)
+
+## Techs <a id="techs"></a>
+
+- [x] React
+- [x] Next
+- [x] JS cookie
+
+## How to execute the project <a id="installation"></a>
+To execute the project, you'll need to have Node and NPM or Yarn installed to setup all the dependencies.
+
+
+### Installation - Front-end (Web) <a id="installation-front"></a>
+
+In the project root folder:
 
 ```bash
+npm install
+npm run start
+```
+
+If you are using Yarn, use this:
+```bash
+yarn install
+yarn start
+```
+
+After finishing installation, the web page will be open in your browser.
+
+---
+
+## Sobre o projeto <a id="secao-pt_br"></a>
+
+O [Move.it](https://nextlevelweek-moveit.vercel.app) é um aplicativo que implementa a técnica de pomodoro, que consiste em manter um período de foco e um período de descanso durante a realização das atividades, junto com um sistema de pontuação que incentiva o usuário a realizar exercícios corporais e de visão, para relaxá-los e evitar possíveis problemas de saúde.
+O aplicativo foi feito em Next.js, uma framework baseada em React que possibilita funcionalidades avançadas, como SSR (Server Side Rendering). Os dados de pontuação do usuário são salvos localmente no browser através de cookies, que possibilitam que o progresso não seja perdido ao recarregar a página. 
+
+## Conteúdos 
+  * [Tecnologias](#tecnlogias)
+  * [Como executar o projeto](#instalacao)
+    * [Instalação - Front-end](#instalacao-front)
+
+## Tecnologias <a id="tecnologias"></a>
+
+- [x] React
+- [x] Next
+- [x] JS cookie
+
+## Como executar o projeto <a id="instalacao"></a>
+Para executar o projeto, você irá precisar ter o Node e o NPM ou Yarn instalados para baixar as dependências.
+
+
+### Instalação - Front-end (Web) <a id="instalacao-front"></a>
+
+Na pasta raíz do repositório:
+
+```bash
+npm install
 npm run dev
-# or
+```
+
+Se estiver usando Yarn, utilize
+```bash
+yarn install
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Quando terminar, a página da aplicação web será aberta no navegador.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+###### Developed on Next Level Week from [Rocketseat](https://rocketseat.com.br) by [Gean Lucas](https://www.linkedin.com/in/geanlucaas/) :rocket:.
